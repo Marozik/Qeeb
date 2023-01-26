@@ -950,10 +950,6 @@ body {
   margin-bottom: 2.5rem;
 }
 
-.popular__slide:last-child {
-  padding-right: 0.9375rem;
-}
-
 .popular__pagination {
   display: none;
 }
@@ -1401,9 +1397,9 @@ body {
       -ms-transform: translate(0, 30%);
           transform: translate(0, 30%);
   opacity: 0;
-  -webkit-transition: all 0.5s ease 0s;
-  -o-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .insights__item._watcher-view {
@@ -3635,6 +3631,10 @@ button.swiper-pagination-bullet {
   .popular__pagination .swiper-pagination-bullet-active {
     border: 1px solid #7F1CFC;
     background-color: #7F1CFC;
+  }
+
+  .slide-popular__item:last-child {
+    margin-right: 0.9375rem;
   }
 
   .collections__header {
